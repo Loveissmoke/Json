@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+p{
+  margin: 0;;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: grey;
+}
+.container
+{
+  position: relative;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .box
+{
+  position: relative;
+  width: 320px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 15px,15px, 15px, black;
+}
+.container .box h2
+{
+  font-size: 1.75em;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.container .box #list
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.container .box #list input
+{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+}
+.container .box #list button
+{
+  background: green;
+  color: white;
+  min-width: 100px;
+  font-weight: 500;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+}
+.container ol
+{
+  position: relative;
+  padding: 10px 20px 10px 40px;
+  width: 100%;
+  min-height: 400px;
+  background: white repeating-linear-gradient(transparent 0%, transparent 99%, black 100%);
+  background-size: 50px 50px;
+  box-shadow: 15px 15px 15px black;
+}
+.container ol li
+{
+  position: relative;
+  font-size: 1.5em;
+  height: 50px;
+}
+.container ol li .remove
+{
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  background: url(remove.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+.container ol li.done p
+{
+  text-decoration: line-through;
+  color: grey;
+}
+.container ol li.done p:after
+{
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  width: 25px;
+  height: 25px;
+  background: url(check.png);
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}

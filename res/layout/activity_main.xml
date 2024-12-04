@@ -1,0 +1,2686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+<EditText
+android:id="@+id/searchEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/> 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+android:id="@+id/linearLayoutContainer"
+android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<!--lbt70g-->
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" LIFEBUOY T 72×70g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/lbt70c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbt70d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbt70p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+<!--lbl70g-->
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+   style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" LIFEBUOY L 72×70g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/lbl70c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbl70d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbl70p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!--lbt150g-->
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" LIFEBUOY T 36x150g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/lbt150c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbt150d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbt150p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+<!--lbl150g-->
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" LIFEBUOY L 36x150g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/lbl150c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbl150d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbl150p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- lbt 20g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" LIFEBUOY T 144x20g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/lbt20c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbt20d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbt20p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+<!-- lbl 20g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" LIFEBUOY L 144x20g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/lbl20c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbl20d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/lbl20p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+
+<!--knorr aio 8g-->
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" KNORR AIO 1440×8g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/knorraioc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/knorraiod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/knorraiop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+ 
+
+<!--knorr chkn-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" KNORR CHICKEN 1440×8g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/knorrchknc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/knorrchknd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/knorrchknp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+ 
+
+<!-- sig30g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SIGNAL 144x30g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sig30c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sig30d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sig30p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sig 60g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SIGNAL 72x60g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sig60c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sig60d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sig60p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sig140g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SIGNAL 48x140g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sig140c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sig140d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sig140p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sun 40g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SUNLIGHT 100x40g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sun40c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun40d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun40p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sun90g-->
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SUNLIGHT 72x90g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sun90c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun90d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun90p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sun 160g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SUNLIGHT 48x160g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sun160c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun160d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun160p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sunbar 200g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SUNLIGHT BAR 50x200g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sunbarc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sunbard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sunbarp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sun 500g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SUNLIGHT 24x500g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sun500c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun500d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun500p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sun 950g-->
+<!--
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SUNLIGHT 12x950g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sun950c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun950d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun950p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+-->
+
+<!-- sun 1kg-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SUNLIGHT 12x1kg" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sun1kc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun1kd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun1kp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- sun 5kg-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SUNLIGHT 1x5kg" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/sun5kc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun5kd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:enabled="false"
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/sun5kp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- ss shacoc 350ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS SHA COC 12x350ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/shacoc350c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shacoc350d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shacoc350p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- ss concoc 350ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS CON COC 12x350ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/concoc350c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/concoc350d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/concoc350p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- ss shaavo 350ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS SHA AVO 12x350ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/shaavo350c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shaavo350d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shaavo350p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- ss conavo 350ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS CON AVO 12x350ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/conavo350c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/conavo350d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/conavo350p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- ss shacoc 700ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS SHA COC 12x700ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/shacoc700c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shacoc700d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shacoc700p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+<!-- ss concoc 700ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS CON COC 12x700ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/concoc700c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/concoc700d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/concoc700p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- ss shaavo 700ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS SHA AVO 12x700ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/shaavo700c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shaavo700d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shaavo700p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- ss conavo 700ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS CONAVO 12x700ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/conavo700c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/conavo700d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/conavo700p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+<!-- ss shacoc 15ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS SHACOC 360x15ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/shacoc15c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shacoc15d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/shacoc15p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+<!-- ss concoc 15ml-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" SS CONCOC 360x15ml" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/concoc15c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/concoc15d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/concoc15p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- omo40g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OMO 100x40g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/omo50c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo50d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo50p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- omo70g-->
+<!--
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OMO 72x70g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/omo70c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo70d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo70p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+-->
+<!-- omo100g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OMO 72x100g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/omo100c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo100d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo100p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- omo160g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OMO 48x160g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/omo160c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo160d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo160p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- omo500g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OMO 24x500g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/omo500c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo500d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo500p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- omo1kg-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OMO 12x1kg" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/omo1kc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo1kd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo1kp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- omo3kg-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OMO 4x3kg" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/omo3kc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo3kd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:enabled="false" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/omo3kp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- lux sc 70g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LUX SC 72x70g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/luxsc70c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/luxsc70d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/luxsc70p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+<!-- lux st 70g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LUX ST 72x70g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/luxst70c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/luxst70d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/luxst70p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+</LinearLayout>
+
+
+
+<!-- lux sc 150g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LUX SC 36x150g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/luxsc150c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/luxsc150d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/luxsc150p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+<!-- lux st 150g-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LUX ST 36x150g" 
+        android:layout_weight="2"/>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/luxst150c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/luxst150d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/" />
+    <EditText
+        android:id="@+id/luxst150p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6" 
+        android:hint="0" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textIsSelectable="false"/>
+   </LinearLayout>
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#e8e8e8"
+    
+    
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".PageTwo">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+android:gravity="center">
+
+<WebView
+         android:id="@+id/calender"
+        android:layout_width="match_parent"
+        android:layout_height="130dp" 
+android:overScrollMode="never"
+    android:scrollbars="none"
+    android:isScrollContainer="false"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/deno"
+        android:background="@drawable/btn_layout"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content" 
+        android:text="Denomination"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <Button
+android:layout_marginTop="15dp"
+        android:id="@+id/report"
+        android:background="@drawable/btn_layout"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content" 
+        android:text="Report"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <Button
+        android:id="@+id/bydate"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content" 
+        android:text="By Date"
+        android:background="@drawable/btn_layout"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/detail"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/btn_layout"
+        android:text="Detail"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="15dp"/>
+<Button
+        android:id="@+id/note"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/btn_layout"
+        android:text="Note"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="15dp"/>
+<Button
+        android:id="@+id/price"
+        android:background="@drawable/btn_layout"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:text="Price List"
+android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/dayend"
+        android:background="@drawable/btn_layout"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:text="Day End"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
