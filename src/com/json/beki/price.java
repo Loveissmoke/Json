@@ -15,7 +15,7 @@ public class price {
         public static double  psunlight_40g = 11.88;
         public static double  psunlight90g = 25.51;
         public static double  psunlight160g = 34.0;
-        public static double  psunlightbar_200g = 40.50;
+        public static double  psunlightbar_200g = 31.50;
         public static double  psunlight500g = 127.54;
         public static double  psunlight1kg = 229.15;
         public static double  psunlight5kg = 933.7;
